@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="icon" href="img/ico.png">
+    <link rel="stylesheet" href="css/estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="para--reservar" id="vent">
+        <p>
+            ¡Mensaje enviado
+            con éxito! <br>
+        </p> <br>
+        <a href="javascript:cerrar()"> Cerrar</a>
+    </div>
+
+
+    <header class="header">
+        <div class="container">
+
+            <div class="logo">
+                <a href="index.html"><img src="img/ico-menu.png" alt="logo-ova-club"></a>
+            </div>
+            
+            <nav class="menu">
+                <a href="index.html" >Inicio</a>
+                <a href="bebidas.html">Bebidas</a>
+                <a href="localidades.html">Localidades</a>
+                <a href="contactanos.html" id="aqui">Contactanos</a>
+            </nav>
+
+            <div class="admin">
+                <p> <a href="perfil.html" class="joan-jo"><strong>JOAN JO</strong></a></p>
+                <a href="factura.html"> <img src="img/car.png" alt="carrito-de-reservación"> </a>
+                <a href="VISITANTES/index-vis.html"> <img src="img/exit.png" alt="boton-cerrar-sesión"> </a>
+            </div>
+
+        </div>
+    </header>
+
+<main class="main">
+
+    <section class="contact">
+
+        <div class="codigo">
+            <h2 class="titulo">Whatsapp</h2>
+            <img src="img/qr.JPG" alt="qr-whatsapp">
+        </div>
+
+        <div class="conts">
+
+            <h2 class="titulo">Comunicate con nosotros</h2>
+            <div class="footerss">
+                <form action="">
+
+                    <label title="nombre"><input type="text" placeholder="Nombre" required="" > </label>
+                    <label title="correo"><input type="email" placeholder="Correo electronico" required=""> </label>
+                    <label title="mensaje"><textarea placeholder="Ingrese su mensaje" required=""></textarea> </label> 
+                    <!-- <input class="bt" id="botonend" type="reset" value="Limpiar"> -->
+                    <a href="javascript:abrir()"><input class="bt" id="botonend" type="button" value="Enviar"> </a>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="map">
+            <h2 class="titulo">Como llegar</h2>
+            <iframe title="direccion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.393075987802!2d-80.6732910404158!3d-1.0807665323579703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902bfaff0f75f015%3A0xe8182147348af056!2sMuebleria%20Don%20Mero!5e0!3m2!1ses!2sec!4v1597533129745!5m2!1ses!2sec" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="piep">
+        <p>Copyright © 2020 Joan Jo. Todos los Derechos reservados </p>
+    </div>
+</footer>
+
+</body>
+<script src="../js/java.js" ></script> 
+
+</html>

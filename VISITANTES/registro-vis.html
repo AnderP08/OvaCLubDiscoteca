@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <link rel="icon" type="image/png" href="../img/ico.png">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <div class="para--reservar" id="vent">
+        <p>
+            ¡Registrado exitosamente!
+        </p>
+        <a href="javascript:cerrar()"> CERRAR</a>
+    </div>
+
+
+    <header class="header">
+        <div class="container">
+
+            <div class="logo">
+                <a href="index-vis.html"><img src="../img/ico-menu.png" alt="logo-ova-club"></a>
+            </div>
+            
+            <nav class="menu-vis">
+                <a href="index-vis.html">Inicio</a>
+                <!-- <a href="bebidas-vis.html">Bebidas</a> -->
+                <!-- <a href="localidades-vis.html">Localidades</a> -->
+                <a href="contactanos-vis.html">Contactanos</a>
+                <!-- <a href="registro.html">Iniciar sesión</a> -->
+            </nav> 
+            <div class="login-reg">
+                <form class="login-r" action="">
+                    <input title="usuario" type="text" name="" id="" placeholder="Usuario" required="Obligatorio"><br>
+                    <input title="contraseña" ype="password" name="" id="" placeholder="Contraseña" required="Obligatorio"><br>
+                    <a href="../index.html"> Ingresar </a>
+                    <!-- <input id="ing" type="submit" value="Ingresar"> -->
+                </form>
+                <!-- <p>¿No tienes cuenta? <a href="registro-vis.html"><STRong>REGÍSTRATE ES GRATIS</STRong></a></p> -->
+            </div>
+            
+        </div>
+    </header>
+<main class="main">
+    <section class="register">
+        <div class="Title">
+            <h1>MÓDULO DE REGISTRO</h1>
+        </div>
+        <div class="form">
+            <form action="" method="">
+                <input title="nombre" type="text" name="" id="" placeholder="Nombre" required="Obligatorio"><br>
+                <input title="apellido" type="text" name="" id="" placeholder="Apellido" required="Obligatorio"><br>
+                <input title="cedula" type="text" name="" id="" placeholder="Cédula" maxlength="10" required="Obligatorio"><br>
+                <input title="fecha de nacimiento" type="date" name="" id="" required="Obligatorio"><br>
+                <input title="correo" type="email" name="" id="" placeholder="Correo electronico" required="Obligatorio"><br>
+                <!-- <input type="radio" name="gender" value="man" id="man" required="Obligatorio">
+                <label for="man">Hombre</label>
+                <input type="radio" name="gender" value="woman" id="woman" required="Obligatorio">
+                <label for="woman">Mujer</label> -->
+                <input title="contraseña" type="password" name="" id="" placeholder="Ingresar contraseña" required="Obligatorio"><br>
+                <div class="datess">
+                    <p>
+                        <strong>La contraseña debe incluir: </strong> <br>
+                        Al menos un caracter <br>
+                        Al menos una letra mayúscula <br>
+                        Al menos 8 carácteres <br>
+                        Las contraseñas deben cohincidir
+                    </p>
+                </div>
+                <input title="repetir contraseña" type="password" name="" id="" placeholder="Repetir contraseña" required="Obligatorio">
+                
+                <div class="butons">
+                    <a href="index-vis.html"><input type="button" value="Cancelar"></a>
+                    <input type="reset" value="Limpiar">
+                    <a href="javascript:abrir()"><input type="button" value="Registrarse"></a>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+    <footer>
+        <div class="piep">
+            <p>Copyright © 2020 Joan Jo. Todos los Derechos reservados </p>
+        </div>
+    </footer>
+</body>
+
+<script src="../js/java.js" ></script> 
+
+</html>

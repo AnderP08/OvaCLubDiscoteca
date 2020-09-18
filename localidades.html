@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localidad</title>
+    <link rel="icon" href="img/ico.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> -->
+
+</head>
+<body>
+
+    <div class="para--reservar" id="vent">
+        <p>
+            ¡Mesa Reservada
+            con éxito! <br>
+            ¿Desea agregar bebida a la mesa?
+        </p> <br>
+        <a href="javascript:cerrar()"> Cerrar</a>
+        <a href="bebidas.html"> Aceptar</a>
+    </div>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="logo">
+                <a href="index.html"><img src="img/ico-menu.png" alt="logo-ova-club"></a>
+            </div>
+            
+            <nav class="menu">
+                <a href="index.html" >Inicio</a>
+                <a href="bebidas.html">Bebidas</a>
+                <a href="localidades.html" id="aqui">Localidades</a>
+                <a href="contactanos.html">Contactanos</a>
+            </nav>
+
+            <div class="admin">
+                <p> <a href="perfil.html" class="joan-jo"><strong>JOAN JO</strong></a></p>
+                <a href="factura.html"> <img src="img/car.png" alt="carrito-de-reservación"> </a>
+                <a href="VISITANTES/index-vis.html"> <img src="img/exit.png" alt="boton cerrar sesión"></a>
+            </div>
+
+        </div>
+    </header>
+
+
+<main class="main">
+    <div class="cuerpo-local">    <!-- ZONA VIP -->
+        <h2>Zona Exclusiva o Vip</h2>   
+        <div class="bebid-local">
+            <!-- <h3>Cervezas</h3>    -->
+            <section class="single-local">
+                <img src="img/mesa-1.JPG" alt="localidad1-vip">
+                <p><strong>Precio: </strong>$30.00</p>
+                <p><strong>Número de mesa: </strong>1</p>
+                <p><strong>Cantidad sillas: </strong>4</p>
+                <!-- <form class="lolform-s" action="">
+                    <h4> <strong>Cantidad silla: </strong>
+                    <select name="" id="">
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inres" href="javascript:abrir()">Reservar</a>
+                <!-- <input type="button" value="Reservar">       -->
+            </section>
+
+            <section class="single-local">
+                <img src="img/mesa-2.JPG" alt="localidad2-vip">
+                <p><strong>Precio: </strong>$30.00</p>
+                <p><strong>Número de mesa: </strong>2</p>
+                <p><strong>Cantidad sillas: </strong>4</p>
+
+                <!-- <form class="lolform-s" action="">
+                    <h4> <strong>Cantidad silla: </strong>
+                    <select name="" id="">
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                    </select>
+                </h4>
+                </form> -->
+                <input id="No-dispo" type="button" value="Mesa Reservada">      
+            </section>
+
+        </div>
+    </div>
+
+    <div class="cuerpo-local">    <!-- ZONA FREE -->
+        <h2>Zona Free</h2>   
+        <div class="bebid-local">
+            <!-- <h3>Cervezas</h3>    -->
+            <section class="single-local">
+                <img src="img/home/4.jpeg" alt="localidad1-free">
+                <p><strong>Precio: </strong>$15.00</p>
+                <p><strong>Número de mesa: </strong>1</p>
+                <p><strong>Cantidad sillas: </strong>4</p>
+
+                <!-- <form class="lolform-s" action="">
+                    <h4> <strong>Cantidad silla: </strong>
+                    <select name="" id="">
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inres" href="javascript:abrir()">Reservar</a>
+            </section>
+
+            <section class="single-local">
+                <img src="img/home/1.jpeg" alt="localidad2-free">
+                <p><strong>Precio: </strong>$10.00</p>
+                <p><strong>Número de mesa: </strong>2</p>
+                <p><strong>Cantidad sillas: </strong>4</p>
+
+                <!-- <form class="lolform-s" action="">
+                    <h4> <strong>Cantidad silla: </strong>
+                    <select name="" id="">
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inres" href="javascript:abrir()">Reservar</a>
+            </section>
+
+            <!-- <section class="single-local">
+                <img src="img/mesa-1.JPG" alt="">
+                <p><strong>Precio: </strong>$30.00</p>
+                <p><strong>Número de mesa: </strong>1</p>
+
+                <form class="lolform-s" action="">
+                    <h4> <strong>Cantidad silla: </strong>
+                    <select name="" id="">
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                    </select>
+                </h4>
+                </form>
+                <input type="button" value="Agregar">      
+            </section>
+
+            <section class="single-local">
+                <img src="img/mesa-1.JPG" alt="">
+                <p><strong>Precio: </strong>$30.00</p>
+                <p><strong>Número de mesa: </strong>1</p>
+
+                <form class="lolform-s" action="">
+                    <h4> <strong>Cantidad silla: </strong>
+                    <select name="" id="">
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                    </select>
+                </h4>
+                </form>
+                <input type="button" value="Agregar">      
+            </section> -->
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="piep">
+        <p>Copyright © 2020 Joan Jo. Todos los Derechos reservados </p>
+    </div>
+</footer>
+
+
+
+</body>
+
+<script src="js/java.js" ></script> 
+
+        
+</html>

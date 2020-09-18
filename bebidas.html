@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas</title>
+    <link rel="icon" href="img/ico.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> -->
+
+</head>
+<body>
+
+    <div class="para--reservar" id="vent">
+        <p>
+            ¡Producto agregado
+            a la mesa!
+            ¿Desea ir al carrito?
+        </p> <br>
+        <a href="factura.html">Ir al carrito</a>
+        <a href="javascript:cerrar()">Seguir agregando</a>
+    </div>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="logo">
+                <a href="index.html"><img src="img/ico-menu.png" alt="logo-ova-club"></a>
+            </div>
+            
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="bebidas.html" id="aqui" >Bebidas</a>
+                <a href="localidades.html">Localidades</a>
+                <a href="contactanos.html">Contactanos</a>
+            </nav>
+
+            <div class="admin">
+                <p> <a href="perfil.html" class="joan-jo"><strong>JOAN JO</strong></a></p>
+                <a href="factura.html"> <img src="img/car.png" alt="carrito-de-reservación"> </a>
+                <a href="VISITANTES/index-vis.html"> <img src="img/exit.png" alt="boton-cerrar-sesión"> </a>
+            </div>
+
+        </div>
+        <div class="busqueda">
+            <form action="">
+                <input title="buscador" type="search" name="Busqueda" id="" placeholder="Ingrese bebida a buscar"> <button>Buscar</button>
+            </form>
+        </div>
+    </header>
+
+<main class="main-contact">
+    <div class="cuerpo">    <!-- ALCOHOLICAS -->
+        <h2>Bebidas Alcohólicas</h2>   
+        <div class="bebid">
+            <h3>Cervezas</h3>   
+            <section class="single">
+                <img src="img/club-verde.jpg" alt="cerveza club verde">
+                <p><strong>Nombre: </strong>Club verde</p>
+                <p><strong>Precio: </strong>$ 1.50</p>
+                <!-- <form class="form-s" action="">
+                    <h4> <strong>Cantidad: </strong>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inp" href="javascript:abrir()">Agregar</a>
+                
+                <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="46UT6KGVA6EWS">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form> -->
+                    
+            </section>
+
+            <section class="single">
+                <img src="img/pilsener.jpg" alt="cerveza pilsener">
+                <p>Nombre: Pilsener</p>
+                <p>Precio: $ 1.50</p>
+                <!-- <form class="form-s" action="">
+                    <h4> <strong>Cantidad: </strong>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </h4>
+                </form> -->
+                <!-- <input type="button" value="Agregar"> -->
+                <a class="inp" href="javascript:abrir()">Agregar</a>
+
+            </section>
+
+            <section class="single">
+                <img src="img/corona.jpg" alt="cerveza corona">
+                <p>Nombre: Corona</p>
+                <p>Precio: $ 1.50</p>
+                <!-- <form class="form-s" action="">
+                    <h4> <strong>Cantidad: </strong>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inp" href="javascript:abrir()">Agregar</a>
+            </section>
+
+            <section class="single">
+                <img src="img/Brahma.jpg" alt="cerveza brahma">
+                <p><strong>Nombre: </strong>Brahma</p>
+                <p><strong>Precio: </strong> $ 1.50</p>
+                <!-- <form class="form-s" action="">
+                    <h4> <strong>Cantidad: </strong>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inp" href="javascript:abrir()">Agregar</a>
+            </section>
+            
+        </div>
+    </div>
+
+    <div class="cuerpo">    <!-- BEBIDAS -->
+        <h2>Bebidas No Alcohólicas</h2>   
+        <div class="bebid">
+            <h3>Refrescos</h3>  
+            
+            <section class="single">
+                <img src="img/agua-dasani.png" alt="agua dasani">
+                <p><strong>Nombre: </strong>Agua dasani</p>
+                <p><strong>Precio: </strong>$ 0.75</p>
+                <!-- <form class="form-s" action="">
+                    <h4> <strong>Cantidad: </strong>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inp" href="javascript:abrir()">Agregar</a>
+            </section>
+
+            <section class="single">
+                <img src="img/c-c.webp" alt="coca cola">
+                <p><strong>Nombre: </strong>Coca cola</p>
+                <p><strong>Precio: </strong>$ 1.00</p>
+                <!-- <form class="form-s" action="">
+                    <h4> <strong>Cantidad: </strong>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inp" href="javascript:abrir()">Agregar</a>
+            </section>
+
+            <section class="single">
+                <img src="img/pony-malta.jpg" alt="pony malta">
+                <p><strong>Nombre: </strong>Pony malta</p>
+                <p><strong>Precio: </strong>$ 0.50</p>
+                <!-- <form class="form-s" action="">
+                    <h4> <strong>Cantidad: </strong>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </h4>
+                </form> -->
+                <a class="inp" href="javascript:abrir()">Agregar</a>
+            </section>
+
+        </div>
+    </div>
+
+</main>
+    <footer>
+        <div class="piep">
+            <p>Copyright © 2020 Joan Jo. Todos los Derechos reservados </p>
+        </div>
+    </footer>
+</body>
+
+
+<script src="js/java.js" ></script> 
+
+
+</html>
